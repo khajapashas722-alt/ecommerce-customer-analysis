@@ -1,0 +1,25 @@
+{
+  "dataset_name": "UCI Online Retail Dataset",
+  "total_revenue_gbp": 10642110.8,
+  "total_orders": 19960,
+  "total_items_sold": 5572420,
+  "average_order_value_gbp": 533.17,
+  "total_unique_customers": 4338,
+  "rfm_segments": {
+    "Champions": 1317,
+    "Lost / Hibernating": 1210,
+    "Needs Attention": 759,
+    "Loyal Customers": 612,
+    "Promising / New": 259,
+    "At Risk": 181
+  },
+  "top_product": {
+    "description": "DOTCOM POSTAGE",
+    "revenue": 206248.77
+  },
+  "top_market": {
+    "country": "United Kingdom",
+    "revenue": 9001744.09,
+    "share_percent": 84.59
+  }
+}
