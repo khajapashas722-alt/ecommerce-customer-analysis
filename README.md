@@ -39,6 +39,7 @@ ecommerce-customer-analysis/
 │   ├── 3_rfm_customer_segments.png
 │   └── 4_hourly_order_volume.png
 ├── ecommerce_analysis.py           # Core analytics, cleaning, and segmentation pipeline
+├── test_ecommerce_analysis.py      # Automated unit test suite
 ├── ecommerce_summary_metrics.json  # Output metrics from execution
 ├── requirements.txt                # Pinned minimal dependencies
 ├── PROJECT_WALKTHROUGH.md          # Step-by-step code tutorial & learning guide
@@ -102,7 +103,7 @@ The pipeline processed 541,909 raw records and retained 524,878 clean transactio
 {
   "total_revenue_gbp": 10642110.80,
   "total_unique_orders": 19960,
-  "total_items_sold": 5595679,
+  "total_items_sold": 5572420,
   "average_order_value_gbp": 533.17,
   "total_unique_customers": 4338,
   "primary_market_share": "United Kingdom (84.59% of revenue)",
